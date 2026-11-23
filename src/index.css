@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --paper: #FAFAFA;
+    --surface: #F4F4F5;
+    --ink: #0F172A;
+    --muted: #52525B;
+    --line: #E4E4E7;
+    --accent: #1E3A8A;
+    --accent-hover: #172554;
+  }
+
+  html {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--paper);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-display {
+  font-family: 'Noto Serif', 'Noto Serif Devanagari', Georgia, serif;
+}
+
+.font-indic {
+  font-family: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+}
+
+.font-mono-num {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

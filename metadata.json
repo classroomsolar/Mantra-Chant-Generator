@@ -1,0 +1,6 @@
+{
+  "name": "Vāgdhenu Studio",
+  "description": "Mobile-ready Sanskrit śloka-to-chant studio with Vṛtta meter detection, batch Vāgdhenu synthesis, Jawari Tanpura accompaniment, and individual or merged MP3 export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
